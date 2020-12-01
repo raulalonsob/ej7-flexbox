@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#container{
+   background-color: rgba(142, 248, 248, 0.623);
+   height: 99%;
+   width: 99%;
+   margin: auto;
+   
+}
+header{
+    height: 5%;
+    padding: 3%;
+    text-align: center;
+    
+}
+aside{ 
+    height: 23%;
+    overflow : auto;
+    max-height: 400px;
+    margin: 2%;
+    
+
+}
+main{
+    padding-top: 2%;
+    display: flex;
+    align-items: flex-start;
+    
+    
+}
+
+section{
+    margin: 2%;
+    height: 25%;
+    width: 30%;
+    min-width: 50px;
+    max-width: 300px;    
+}
+#piePag{
+    display: flex;
+    text-align: center;
+    justify-content: space-between; 
+    flex-direction: row;
+    
+}
+#divPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#lateral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+
+@media screen and (min-width:768px) {
+    #divPrincipal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #lateral {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        order: -1;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

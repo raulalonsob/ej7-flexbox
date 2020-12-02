@@ -7,7 +7,7 @@
    background-color: rgba(142, 248, 248, 0.623);
    height: 99%;
    width: 99%;
-   margin: auto;
+   
    
 }
 header{
@@ -17,7 +17,7 @@ header{
     
 }
 aside{ 
-    height: 23%;
+    
     overflow : auto;
     max-height: 400px;
     margin: 2%;
@@ -34,16 +34,15 @@ main{
 
 section{
     margin: 2%;
-    height: 25%;
+    
     width: 30%;
     min-width: 50px;
     max-width: 300px;    
 }
 #piePag{
-    display: flex;
+    height: 5%;
+    padding: 3%;
     text-align: center;
-    justify-content: space-between; 
-    flex-direction: row;
     
 }
 #divPrincipal{
